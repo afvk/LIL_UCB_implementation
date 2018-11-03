@@ -1,6 +1,10 @@
 # LILUCB implementation
 
-Implementation exercise for the best-arm identification algorithm described in [1].
+Implementation exercise for the best-arm identification algorithm described in [1]. Every timestep the arm is selected according to 
+
+![alt text](figures/eq1.svg)
+
+## Example run
 
 ![alt text](figures/run_example.svg)
 
