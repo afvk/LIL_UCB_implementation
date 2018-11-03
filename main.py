@@ -47,7 +47,7 @@ for i,dist in enumerate(dists):
 plt.xlabel(r'$t$')
 plt.ylabel(r'$\hat{\mu}$')
 plt.tight_layout()
-plt.savefig('figures/run.pdf')
+plt.savefig('figures/run.svg')
 plt.show()
 
 
