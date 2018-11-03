@@ -2,7 +2,7 @@
 
 Implementation exercise for the best-arm identification algorithm described in [1].
 
-$x^2 \log(x)$
+$$x^2 \log(x)$$
 
 ![alt text](figures/run_example.svg)
 
