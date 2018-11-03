@@ -47,7 +47,7 @@ for i,dist in enumerate(dists):
 plt.xlabel(r'$t$')
 plt.ylabel(r'$\hat{\mu}$')
 plt.tight_layout()
-plt.savefig('figures/run.eps')
+plt.savefig('figures/run.png')
 plt.show()
 
 
