@@ -38,7 +38,7 @@ max_peak = max([max(pdf) for pdf in pdfs])
 
 
 
-plt.figure()
+plt.figure(figsize=(6.5,2.5))
 for i,dist in enumerate(dists):
     print(i)
     plt.fill_betweenx(x, pdfs[i]/max_peak*0.25*N_it, color=colors[i], alpha=0.2)
@@ -46,6 +46,8 @@ for i,dist in enumerate(dists):
 
 plt.xlabel(r'$t$')
 plt.ylabel(r'$\hat{\mu}$')
+plt.tight_layout()
+plt.savefig('figures/run.eps')
 plt.show()
 
 
